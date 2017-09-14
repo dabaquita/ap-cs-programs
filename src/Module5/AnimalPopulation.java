@@ -30,6 +30,7 @@ package Module5;
  * int random (random number from 1 - 10 inclusive)
  * int totalCountPerTrial
  *
+ * int trialObservation
  * int totalSquirrelsObserved
  * double averageNumOfSquirrels
  *
@@ -48,9 +49,38 @@ package Module5;
  *      store totalCountPerTrial in text file observations.txt
  *
  * --> Processing Part 2
+ * while there is still data in the next line to be read
+ *      assign data to trialObservation
+ *      add trialObservation to totalSquirrelsObserved
+ *
+ * assign averageNumOfSquirrels the value of (totalSquirrelsObserved / numOfTrials)
+ *      multiplied by 100
+ *
+ *
+ * --> Overall Output
+ * "Welcome to the Squirrel Simulator"
+ *
+ * Prompt user from Processing Part 1
+ *
+ * "The results!"
+ *
+ * "The average number of squirrels observed until spotting a Fox Squirrel
+ * at the city park is: " + averageNumOfSquirrels
  *
  *
  */
 
+import java.util.Scanner;
+import java.io.IOException;
+import java.io.File;
+import java.io.PrintWriter;
+
 public class AnimalPopulation {
-}
+
+    public static void main(String[] args) {
+
+
+
+    } // end of main
+
+} // end of class
