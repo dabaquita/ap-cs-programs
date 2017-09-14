@@ -1,0 +1,27 @@
+
+Project: 4.05 Condition Statements // BMI.java
+Purpose: Use if-else-if condition statments to categorize
+            processed user input.
+Date: 29 August 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to properly use if-else-if statements to
+        get the desired output for the BMI categories.
+        Also, having a plan and some pseudocode beforehand
+        truly helped the process become easier and faster
+        than expected.
+
+<-s>: I ran into a runtime error where the String
+        heightInStr variable included the space in its
+        value. Because of this, the variable could not be
+        parsed into an integer, so I had to change methods
+        from in.nextLine() to in.next().
+
+--------------------------------------------------------
+
+In the future: I'll be able to be more aware in the usage
+                of nextLine() and next(). Also, I'll be
+                able to use if-else-if statements in my
+                future programs!

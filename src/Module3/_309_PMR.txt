@@ -1,0 +1,28 @@
+
+Project: 3.09 Challenge Program // BuyVideoGame.java
+Purpose: Prompts the user for name, date, item to be bought,
+            the number of the items, the price of the item,
+            and debit card and PIN numbers in order to
+            create an e-receipt with specified output.
+Date: 21 August 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to use some planning techniques as well
+        as pseudocode to plan out this challenge program.
+        I am positive that this helped me reach success
+        easily and quickly, running into the least amount
+        of problems as possible. Also, I was able to
+        efficiently use the Scanner class and variable
+        assignments as well as parsing in this program.
+
+<-s>: The only problem I ran into was using nextLine()
+        instead of next(), which caused a few problems
+        in the user input prompt. However, it was solved.
+
+--------------------------------------------------------
+
+In the future: I'll be able to make quicker programs after
+                practicing using pseudocode for an actual
+                project program.

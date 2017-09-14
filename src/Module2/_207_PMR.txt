@@ -1,0 +1,28 @@
+
+Project: Pitfalls, Surprise, Shortcuts // GradesV2.java
+Purpose: Use shortcuts such as the increment operator
+            and casting in order to keep track of total
+            points and calculate average score.
+Date: 12 August 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was easily able to see what I had to do in order
+        to accomplish the given output and didn't run into
+        many problems or errors. Also, I learned that casting
+        can occur within print() and println() statements
+        in the case where 95.0 could be 95.
+
+<-s>: The only error that did occur was a runtime error
+        because the numbers weren't properly formatted in
+        accordance to the instructions. I only forgot to
+        cast my variables within the arithmetic operations.
+
+--------------------------------------------------------
+
+In the future: I'll be able to look at the output display
+                and be able to more easily identify the
+                steps necessary to accomplish the task.
+                I'll begin by writing pseudocode as
+                problems get more difficult as well.

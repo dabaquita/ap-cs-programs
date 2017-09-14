@@ -1,0 +1,23 @@
+
+Project: Integer & Double Calculations // CalculationsV6.java
+Purpose: Use integer and double variables and concatenations for
+            easily readable arithmetic operations in output.
+Date: 9 August 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------------
+
+<+s>: This was a good way to practice using print() and println()
+        to achieve readable arithmetic operations in the output.
+        More importantly, it was a good way to practice the
+        order of operations as well as concatenations and the usage
+        of variables within code.
+
+<-s>: There weren't any errors or parts where I had trouble with, but
+        I did pay careful attention to concatenations and quotation marks
+        and worked to make sure that the output would be readable.
+
+--------------------------------------------------------------
+
+In the future: I'll be able to implement concatenations better than before
+                to display readable output.

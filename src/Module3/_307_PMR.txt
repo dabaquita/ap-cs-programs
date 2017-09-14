@@ -1,0 +1,28 @@
+
+Project: Scanner Class Methods // GradesV3.java
+Purpose: Learn to use the Scanner class in order to obtain
+            user input and process the data to format an
+            output.
+Date: 17 August 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to properly and easily use the Scanner
+        class to complete the objective of containing user
+        input data for use in formatted output. It was
+        especially useful that I could create just one
+        Scanner object for use in other lines of input
+        I needed.
+
+<-s>: An error occurred where I asked for String input
+        followed by int input then again String input
+        line-by-line in the code and the output displayed
+        incorrectly and didn't work as expected. This was
+        new, but I solved it by placing the String inputs
+        together and the int inputs together.
+
+--------------------------------------------------------
+
+In the future: I will be able to use the Scanner class to
+                make more interactive programs than before.

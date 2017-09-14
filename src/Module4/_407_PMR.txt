@@ -1,0 +1,27 @@
+
+Project: 4.07 Logical Operators // TDEE.java
+Purpose: To use logical operators in boolean expressions
+            within if-else-if statements in order to make
+            more concise programs.
+Date: 2 September 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to use logical operators properly within
+        this program as well as the equalsIgnoreCase()
+        method which truly helped make the program more
+        readable and smaller.
+
+<-s>: However, I found a way a way to make the program
+        more object-oriented based off of experience, but
+        I noticed that I needed to use logical operators
+        from reading the directions after making my plan.
+        I should read the directions more carefully.
+
+--------------------------------------------------------
+
+In the future: I will be able to use these new methods and
+                operators to make even more complicated but
+                concise programs as well as know to read the
+                directions more carefully.

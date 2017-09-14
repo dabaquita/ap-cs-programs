@@ -1,0 +1,32 @@
+
+Project: Challenge Program // CurrencyV1.java
+Purpose: To practice casting and arithmetic operations
+            in further detail using int and double
+            variables along with practicing problem-
+            solving to get a desired output with code
+            restrictions.
+Date: 11 August 2017
+Author: Denielle Kirk Abaquita
+
+Src: Bank of America
+https://www.bankofamerica.com/foreign-exchange/currency-converter.go
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to easily do the currency conversions
+        and properly format the displayed output according
+        to the instructions and example. I also learned
+        how to back-solve even more efficiently from
+        Souvenir exercise.
+
+<-s>: Figuring out the Souvenir exercise expressions were
+        more time consuming because I didn't realize how
+        to incorporate the modulus operator along with
+        the variables to perform the desired task. It was
+        vital in calculating fundsRemaining.
+
+--------------------------------------------------------
+
+In the future: I'll be more efficient because I know even
+                more about how to use the modulus operator
+                and about casting to obtain desired results.

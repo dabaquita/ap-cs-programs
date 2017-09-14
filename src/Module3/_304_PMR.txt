@@ -1,0 +1,28 @@
+
+Project: Escape Sequences // ArtWork.java
+Purpose: To practice the use of string objects with
+            escape sequences in order to display a String
+            drawing.
+Date: 15 August 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to use escape sequences properly and
+        assign String literals into String objects. This
+        will definitely prove useful when I need to format
+        a String concisely in Java.
+
+<-s>: After the initial compilation, my output was not in
+        the proper format that I intended it to be because
+        I didn't consider the backslashes within escape
+        sequences in my code. Because of that, some
+        characters were not in the proper place, so the
+        drawing was not complete. I did fix it, however.
+
+--------------------------------------------------------
+
+In the future: I will be able to keep in mind the
+                usefulness of String objects and escape
+                sequences and use them when using Strings
+                in my programs.
