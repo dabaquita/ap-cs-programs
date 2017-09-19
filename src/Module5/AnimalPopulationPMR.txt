@@ -1,0 +1,28 @@
+
+Project: 5.06 Writing Text Files // AnimalPopulation.java
+Purpose: Use the lessons learned in reading and writing
+            text files to create a program that creates
+            a text file with data and processes that data.
+Date: 19 September 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to properly use the skills learned on
+        how to read and write text files in Java to create
+        this program. Also, I have become more comfortable
+        in using print statements to test code and
+        run everything in increments as the final project
+        is finished.
+
+<-s>: I ran into a problem where I forgot to parse
+        a String for its Integer value and obtained
+        "Infinity" as the output for averageNumOfSquirrels.
+        However, I quickly came to realize this after
+        doing some tests.
+
+--------------------------------------------------------
+
+In the future: I will be able to efficiently create and
+                test programs through the skills learned
+                in this module's program.
