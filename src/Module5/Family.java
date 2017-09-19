@@ -5,7 +5,7 @@ package Module5;
  * will consist of two boys, a boy and a girl, or two girls.
  *
  * @author Denielle Kirk Abaquita
- * @version 11 September 2017
+ * @version 18 September 2017
  *
  */
 
@@ -110,9 +110,9 @@ public class Family {
 
         }   // end of while loop
 
-        percent2Boys = ((double) total2Boys / totalData) * 100;        // Calculates the percentage
-        percent2Girls = ((double) total2Girls / totalData) * 100;
-        percentCombo =  ((double) totalCombo / totalData) * 100;
+        percent2Boys = (int) ( 100 * (((double) total2Boys / totalData) * 100)) / 100.0;       // Calculates the percentage
+        percent2Girls = (int) ( 100 * (((double) total2Girls / totalData) * 100)) / 100.0;
+        percentCombo = (int) ( 100 * (((double) totalCombo / totalData) * 100)) / 100.0;
 
         inFile.close();     // close file
 
