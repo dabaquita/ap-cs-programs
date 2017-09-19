@@ -1,0 +1,60 @@
+/**
+ * Planning / Pseudocode
+ *
+ * import Scanner
+ * import File
+ * import PrintWriter
+ * import IOException
+ *
+ * --- Main Method (throws IOException) ---
+ *
+ * --> Variables
+ * Scanner input
+ * PrintWriter outFile --> new PrintWriter(new File("observations.txt")
+ * File fileName --> new File("observations.txt")
+ * Scanner inFile
+ *
+ * int numOfTrials
+ * int random (random number from 1 - 10 inclusive)
+ * int totalCountPerTrial
+ *
+ * int trialObservation
+ * int totalSquirrelsObserved
+ * double averageNumOfSquirrels
+ *
+ *
+ * --> Processing Part 1
+ * Prompt user for numOfTrials greater than or equal to 1000
+ *      store to numOfTrials
+ * Convert to int value
+ *
+ * for (numOfTrials; numOfTrials > 0; numOfTrials -= 1)
+ *      boolean foxSquirrel is false
+ *      while !foxSquirrel
+ *          generate randomNum within [0, 10]
+ *          if the randomNum is 10
+ *              foxSquirrel is true
+ *          increment totalCountPerTrial
+ *      store totalCountPerTrial in text file observations.txt
+ *
+ * --> Processing Part 2
+ * while there is still data in the next line to be read
+ *      assign data to trialObservation
+ *      add trialObservation to totalSquirrelsObserved
+ *
+ * assign averageNumOfSquirrels the value of (totalSquirrelsObserved / numOfTrials)
+ *      multiplied by 100
+ *
+ *
+ * --> Overall Output
+ * "Welcome to the Squirrel Simulator"
+ *
+ * Prompt user from Processing Part 1
+ *
+ * "The results!"
+ *
+ * "The average number of squirrels observed until spotting a Fox Squirrel
+ * at the city park is: " + averageNumOfSquirrels
+ *
+ *
+ */
