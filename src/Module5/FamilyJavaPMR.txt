@@ -1,0 +1,21 @@
+
+Project: 5.03 Reading Text Files // Family.java
+Purpose: To use text files to process data
+Date: 18 September 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to use the File class properly with
+        no problems in processing text data.
+
+<-s>: I had trouble solving the problem of how to round
+        to 2 decimal places using casting, so I asked
+        for help in an email. The problem was solved
+        after I further experimented with how it worked.
+
+--------------------------------------------------------
+
+In the future: I will be able to use the File class
+                in processing text file data as well
+                as use casting to specify double format.
