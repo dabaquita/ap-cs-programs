@@ -58,13 +58,14 @@ public class AnimalPopulation {
 
             while (!foxSquirrel) {                                      // while loop iterates until foxSquirrel is true
 
-                randomNum = (int) (Math.random() * 11);                 // random number is generated
+                randomNum = (int) (Math.random() * 11) + 1 ;                 // random number is generated
 
                 if (randomNum == 10) {                                  // if the number is 10, a fox squirrel was spotted
                     foxSquirrel = true;
+                } else {
+                    totalCountPerTrial++;                                   // total count in the trial until fox squirrel was spotted
                 }
 
-                totalCountPerTrial++;                                   // total count in the trial until fox squirrel was spotted
             } // end of while loop
 
             outFile.println(totalCountPerTrial);                        // stores the count on a new line in observations.txt

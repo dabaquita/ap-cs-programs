@@ -78,6 +78,15 @@ public class Relearning {
                 count++;
         System.out.println("\n" + count);
 
+        int fundsRemaining = 1500;
+        int totalItems1 = 7;
+
+        fundsRemaining %= totalItems1;
+
+        int randomNum = 54;
+        char oneCharInPassCode = (char) randomNum;                           // casts randomNum into a char value
+        System.out.println(oneCharInPassCode);
+
 
     }
 
