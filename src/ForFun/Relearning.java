@@ -87,6 +87,15 @@ public class Relearning {
         char oneCharInPassCode = (char) randomNum;                           // casts randomNum into a char value
         System.out.println(oneCharInPassCode);
 
+        int[] nameArray = new int[10];      // array initialization and loop work
+        for (int i = 0; i < 10; i++) {
+
+            nameArray[i] += i;
+            System.out.println(nameArray[i]);
+        }
+
+
+
 
     }
 
