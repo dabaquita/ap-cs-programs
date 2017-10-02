@@ -1,0 +1,21 @@
+
+Project:  6.02 Formatting Output // AnnualWeatherV2.java
+Purpose: To learn how to format output using the printf()
+            method with format specifiers.
+Date: 30 September 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Formatting output using format specifiers went
+        very well! I love how efficient it is compared
+        to constantly using tabs and spaces for
+        formatting.
+
+<-s>: Fortunately, I didn't run into any trouble with this
+        program!
+
+--------------------------------------------------------
+
+In the future: I will be able to format beautiful output
+                using printf() instead of plain spaces.

@@ -94,6 +94,26 @@ public class Relearning {
             System.out.println(nameArray[i]);
         }
 
+        String[] names = { "fred", "jane", "eric" };
+
+        for ( String name : names )         // for each loop
+        {
+            System.out.println(name);
+        }
+
+        String[] mascots = { "Knights", "Seminoles", "Bulls", "Gators" };
+        int n1 = -1;
+        String str1 = "";
+
+        for (String m1 : mascots)
+        {
+            System.out.println(m1.indexOf("l"));
+            n1 = m1.indexOf("l") + 2;
+            System.out.println(n1);
+            str1 += m1.substring(n1);
+            System.out.println(str1);
+        }
+        System.out.println(str1);
 
 
 
