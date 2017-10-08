@@ -115,7 +115,20 @@ public class Relearning {
         }
         System.out.println(str1);
 
+        int[] numList = {3, 99, -1, 5, -10};
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
+        for(int i = 0; i < numList.length; i++) {
 
+            if(numList[i] < min)
+                min = numList[i];
+            if(numList[i] > max)
+                max = numList[i];
+        }
+        System.out.println(min);
+        System.out.println(max);
+
+        System.out.printf("%20s", "hello"); // print f applies to strings as well
 
     }
 

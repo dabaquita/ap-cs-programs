@@ -1,0 +1,31 @@
+
+Project:  6.04 Challenge Program // HurricaneSelector.java
+Purpose: To use arrays and format specifiers properly on
+            top of bringing all concepts that have been
+            learned so far into one challenge program.
+Date: 8 October 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to make the code well organized despite
+        the extensiveness of it all. Additionally, I was
+        able to use format specifiers as well as arrays
+        fairly efficiently in accomplishing this program.
+
+<-s>: There were multiple bugs during and after the entire
+        creation of this program. Specifically, I found
+        that I incorrectly programmed how the program
+        was to take in data line by line, which led to
+        a lot of frustration. Also, some of the parts
+        of my program were unordered, so I had to
+        rearrange them accordingly. Overall, this process
+        taught me how to effectively problem solve and
+        debug a program to its deepest levels so far.
+
+--------------------------------------------------------
+
+In the future: I will be more efficient in writing my
+                programs as well as be able to more
+                quickly point out bugs and fix them
+                accordingly.

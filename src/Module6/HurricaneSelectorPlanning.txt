@@ -1,0 +1,167 @@
+/**
+ * import Scanner
+ * import IOException
+ * import File
+ * import PrintWriter
+ */
+
+/**
+ * Variables
+ *
+ * Scanner input
+ * Scanner inFile
+ * PrintWriter outFile
+ * File fileName
+ *
+ *
+ * String[] year
+ * String[] month
+ * int[] windSpeed
+ * int[] pressure
+ * String[] name
+ * int[] category
+ *
+ * int numOfCategories = 5
+ * int countCat1 = 0;
+ * int countCat2 = 0;
+ * int countCat3 = 0;
+ * int countCat4 = 0;
+ * int countCat5 = 0;
+ *
+ * String range
+ * int rangeOfYearsLower
+ * int rangeOFYearsUpper
+ *
+ * double sumCategory
+ * double sumPressure
+ * double sumWindSpeed
+ * int numOfTerms = 0
+ * double averageCategory
+ * double averagePressure
+ * double averageWindSpeed
+ *
+ * int iMax = Integer.MIN_VALUE
+ * int iMin = Integer.MAX_VALUE
+ *
+ * double dMax = Double.MIN_VALUE
+ * double dMin = Double.MAX_VALUE
+ *
+ * int categoryMin
+ * int pressureMin
+ * double windSpeedMin
+ *
+ * int categoryMax
+ * int pressureMax
+ * double windSpeedMax
+ *
+ */
+
+/**
+ * Reading in data
+ *
+ * while .txt still has nextLine() to be read
+ *
+ *      for(int index = 0; index < numOfCategories; index++)
+ *
+ *          assign next token to index of year[]
+ *          assign next token to index of month[]
+ *          assign next token to index of windSpeed[]
+ *          assign next token to index of pressure[]
+ *          assign next token to index of name[]
+ *
+ * Close inFile
+ */
+
+/**
+ * Convert wind speed to MPH / determine category
+ *
+ * for int i = 0; i < windSpeed.length; i++
+ *
+ *      replace windSpeed[i] with Integer.parseInt(windSpeed[i]) converted to mph
+ *
+ *      if windSpeed[i] is [74, 95]
+ *          category[i] = 1
+ *          countCat1++
+ *      if windSpeed[i] is [96, 110]
+ *          category[i] = 2
+ *          countCat2++
+ *      if windSpeed[i] is [111, 129]
+ *          category[i] = 3
+ *          countCat3++
+ *      if windSpeed[i] is [130, 156]
+ *          category[i] = 4
+ *          countCat4++
+ *      if windSpeed[i] is [157, +infinity]
+ *          category[i] = 5
+ *          countCat5++
+ */
+
+/**
+ * User input for range of years to create output
+ *
+ * Prompt user for String range (1995 2015) [1995, 2015]
+ *      convert each to an int value into rangeOfYearsLower/Upper using substring
+ * Check for incorrect range
+ */
+
+/**
+ * Display table output / perform operations
+ *
+ * for (int i = 0; i < year.length; i++)
+ *      if year[i] is >= rangeOfYearsLower AND <= rangeOfYearsUpper
+ *          Print year[i], name[i], category[i], pressure[i], windSpeed[i]
+ *
+ *          add category[i] to sumCategory
+ *          add Integer.parseInt(pressure[i]) to sumPressure
+ *          add Integer.parseInt(windSpeed[i]) to sumWindSpeed
+ *
+ *          increment numOfTerms
+ *
+ *          if category[i] is less than iMin
+ *              then categoryMin is equal to category[i]
+ *          if category[i] is more than iMax
+ *              then categoryMax is equal to category[i]
+ *
+ *          if pressure[i] is less than iMin
+ *              then pressureMin is equal to pressure[i]
+ *          if pressure[i] is more than iMax
+ *              then pressureMax is equal to pressure[i]
+ *
+ *          if windSpeed[i] is less than dMin
+ *              then windSpeedMin is equal to windSpeed[i]
+ *          if windSpeed[i] is more than dMax
+ *              then windSpeedMax is equal to windSpeed[i]
+ *
+ * calculate sumCategory / numOfTerms to averageCategory
+ * calculate sumPressure / numOfTerms to averagePressure
+ * calculate sumWindSpeed / numOfTerms to averageWindSpeed
+ *
+ */
+
+/**
+ * OutFile
+ *
+ * outFile.println -
+ *
+ *      Range: range
+ *
+ *      Summary of Categories:
+ *      Cat 1: countCat1
+ *      Cat 2: countCat2
+ *      Cat 3: countCat3
+ *      Cat 4: countCat4
+ *      Cat 5: countCat5
+ *
+ * close outFile
+ */
+
+/**
+ * Display calculated output
+ *
+ * Print averages of category, pressure, and wind speed
+ * Print minimums of category, pressure, and wind speed
+ * Print maximum of category, pressure, and wind speed
+ *
+ * Print summary of categories (countCat1, countCat2, etc.)
+ *
+ */
