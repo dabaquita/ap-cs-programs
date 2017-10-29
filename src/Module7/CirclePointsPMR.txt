@@ -1,0 +1,29 @@
+
+Project: 7.01 Java's Math Class // CirclePoints.java
+Purpose: To use Java's Math class in order to calculate
+            from given values of a circle to points
+            on that circle.
+Date: 16 October 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I learned how to use Java's Math class as well
+        as increased my understanding of loops and
+        printf() through this exercise.
+
+<-s>: At first, I used a for loop in formatting the
+        output table, but I soon realized this would not
+        be the case. After a few days of just thinking it
+        over, I realized that I should stop playing
+        with the for loop and try other methods. As a
+        result, I was able to realize how the while
+        loop could be used, resulting in a successful
+        program.
+
+--------------------------------------------------------
+
+In the future: I will be able to use Java's Math class
+                in performing arithmetic essential in
+                most programs as well as discern between
+                using for loops and while loops.

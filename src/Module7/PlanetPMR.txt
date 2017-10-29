@@ -1,0 +1,26 @@
+
+Project:  Defining New Static Methods //
+          PlanetGravity.java & PlanetWeight.java
+Purpose: To learn how to use methods in creating
+            more modular and object oriented programs.
+Date: 28 October 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I found it much easier to finally use modular
+        programming to write my programs. My code resulted
+        in a more concise and readable format, and
+        there were far fewer problems that occurred.
+
+<-s>: I did not know that I needed the main method to
+        also throw an IOException within PlanetWeight.java
+        despite one of my other methods handling it, but
+        now I learned it and both throw the exception.
+
+--------------------------------------------------------
+
+In the future: I will be able to use methods to make my
+                programs reflect object oriented
+                programming and be able to write
+                and debug code easier.

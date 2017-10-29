@@ -1,0 +1,68 @@
+/**
+ * Pseudocode / Planning
+ *
+ * import java.io.IOException
+ * import java.io.File
+ * import java.io.PrintWriter
+ *
+ *
+ * -- Main Method --
+ *
+ * Variables -
+ * String[] planets
+ * double[] mass
+ *          diameterInKM
+ *          gravityArray
+ *
+ * Processing -
+ * assign gravityArray the value of calculateGravity(mass, diameterInKM)
+ *
+ * Output -
+ * implement formatTable(planets, diameterInKM, mass, gravityArray)
+ *
+ *
+ * -- calculateGravity() --
+ * (int[] mass, int[] diameter) -> double[] gravity
+ *
+ * Variables -
+ * double[] gravity (same length as String[] mass)
+ * double[] radiusInMeters (same length as String[diameter]
+ * double gConstant = 6.67408e-11
+ *
+ * Processing -
+ * for loop when i = 0 while < gravity's length, increment 1
+ *
+ *      assign radiusInMeters[i] the value of diameter divided by 2 multiplied by 1000
+ *          which converts it to radius in meters
+ *
+ *      assign gravity[i] the value of gConstant multiplied by mass[i] divided by
+ *          radiusInMeters[i] to the power of 2
+ *
+ *      round to the nearest two decimal places by mulitplying gravity[i] by (int) and 100 and
+ *          dividing by 100.0
+ *
+ * return gravity
+ *
+ *
+ * -- formatTable() --
+ * (String[] planets, double[] diameter, double[] mass, double[] gravity) -> void
+ *
+ * Printf "Planetary Data" as the header
+ * Printf "Planet", "Diameter (km)", "Mass (kg)", "g (m/s^2)" as column headers
+ *
+ * for the value of i is 0, while it is less than planet's length, increment i
+ *      printf items in planet, diameter, mass, gravity at index i
+ *
+ *
+ * -- gravityToFile() throws IOException --
+ * (double[] gravity) -> void
+ *
+ * Variables -
+ * PrintWriter outFile
+ *
+ * Processing -
+ * for each double item in gravity
+ *      print item on new line
+ *
+ * Close outFile
+ */

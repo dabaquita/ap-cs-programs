@@ -1,0 +1,86 @@
+PlanetWeight.java
+
+import Scanner
+import IOException
+import File
+
+-- Main Method --
+
+Variables -
+String[] planets = {Mercury, Venus, Earth, Mars,
+                    Jupiter, Saturn, Uranus, Neptune}
+double[] gravity, weightInLbs
+double givenWeight
+
+Processing -
+assign gravity to readGravityData() return value
+
+assign givenWeight to userWeightPrompt return value
+
+assign weightInLbs to weightInPlanets(gravity, givenWeight) return value
+
+Output -
+formatTable(planets, gravity, weightInLbs)
+
+-----------------
+
+
+-- readGravityData() throws IOException--
+    -> double[] gravity <-
+
+Variables -
+Scanner inFile
+double[] gravityArray
+
+Processing -
+i = 0
+while gravity has data to be read
+    assign data to gravityArray[i]
+    increment i
+
+return gravityArray
+-----------------------------------------
+
+
+-- userWeightPrompt() --
+    -> double weight <-
+
+Variables -
+Scanner input
+double weight
+
+Processing -
+Prompt user for weight in lbs
+    assign to weight
+
+return weight
+
+-------------------------
+
+
+-- weightInPlanets() --
+(double[] gravity, double weight) --> double[] weightArray
+
+Variables -
+double[] weightArray (same length as gravity)
+double earthGravity = 9.79
+
+Processing -
+for as int i = 0, while it is less than gravity length, increment
+    assign weightArray[i] the product of gravity[i] and ( weight / earthGravity)
+
+return weightArray
+
+-----------------------
+
+
+-- formatTable() --
+(String[], double[], double[]) --> void
+
+printf "My weight on the planets" as header
+printf "Planet", "Gravity", and "Weight (lbs)" as column headers
+
+for int i = 0, while it is less than String[] length, increment
+    printf planet[i], gravity[i], and weight[i]
+
+-------------------

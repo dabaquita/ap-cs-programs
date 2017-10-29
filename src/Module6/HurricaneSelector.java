@@ -98,7 +98,7 @@ public class HurricaneSelector {
         } // end of while loop
 
 
-        // Display table output / peroform operations on averages
+        // Display table output / perform operations on averages
         System.out.printf("\n%35s%5s-%4s\n", "Hurricanes", rangeOfYearsLower, rangeOfYearsUpper);
         System.out.printf("%5s%15s%15s%20s%20s\n", "Year", "Hurricane", "Category", "Pressure (mb)", "Wind Speed (mph)");
         System.out.println("==========================================================================================");
@@ -124,7 +124,7 @@ public class HurricaneSelector {
                 } else if (windInMPH >= 129.5 && windInMPH < 156.5) {       // category 4
                     category[index] = 4;
                     countCat4++;
-                } else if (windInMPH >= 156.5) {
+                } else if (windInMPH >= 156.5) {                            // category 5
                     category[index] = 5;
                     countCat5++;
                 }

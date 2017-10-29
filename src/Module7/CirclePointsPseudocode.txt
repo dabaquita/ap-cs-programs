@@ -1,0 +1,33 @@
+/**
+ * Planning / Pseudocode
+ *
+ * import Scanner
+ *
+ * -> Variables
+ * Scanner input
+ *
+ * double radius
+ * double incrementX
+ *
+ * double x1
+ * double y1
+ * double y2
+ *
+ *
+ * -> Input
+ * Prompt user for radius and increment input
+ *      parse into corresponding double variables
+ *
+ * -> Processing
+ * Print "Points on a Circle with a Radius of," radius
+ * Printf x1, y1, x1, y2
+ *
+ *
+ * x1 = radius
+ * for (double i = x1; i >= -x1; i - incrementX)
+ *      assign y1 the value of sqrt(radius^2 - x1^2)
+ *      assign y2 negative value of y1
+ *
+ *      printf x1, y1, x1, y2 values
+ *
+ */
