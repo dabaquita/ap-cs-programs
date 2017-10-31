@@ -1,0 +1,98 @@
+
+Challenge Program 7 // EstimatePi.java
+
+import java.util.Scanner
+
+-- Main Method --
+
+Variables -
+int numOfDarts
+int numOfTrials
+double estimateOfPi
+double[] resultsOfTrials
+
+
+Operations -
+assign numOfDarts the value of promptUserNumOfDarts()
+assign numOfTrials the value of promptUserNumOfTrials()
+assign resultsOfTrials the value of executeTrials(numOfTrials, numOfDarts)
+assign estimateOfPi the value of averageEstimates(resultsOfTrials)
+
+Output -
+initialize printResults(resultsOfTrials, estimateOfPi)
+
+
+-- promptUserNumOfDarts() --
+    --> int numOfDarts
+
+Variables -
+Scanner input
+int numOfDarts
+
+Processing -
+Prompt user for numOfDarts
+    parse string input value into numOfDarts
+
+return numOfDarts
+----------------------------
+
+
+-- promptUserNumOfTrials() --
+    --> int numOfTrials
+
+Varibles -
+Scanner input
+int numOfTrials
+
+Processing -
+Prompt user for numOfTrials
+    parse string input value into numOfDarts
+
+return numOfTrials
+------------------------------
+
+
+-- executeTrials() --
+(int numOfTrials, int numOfDarts) -> double[] trialsValues
+
+Variables -
+double x, y
+int totalHits = 0
+double[] trialsValues (holds numOfTrials)
+
+Processing -
+for when i is equal to 0, when i is < trialsValues length, increment
+    for when j is equal to 0, when j is < numOfDarts, increment
+        assign a random num to x
+        assign a random num to y
+        if x^2 + y^2 <= 1, then increment totalHits
+
+    let trialsValues at index of i equal to 4 * (totalHits / numOfDarts)
+
+return trialsValues
+----------------------
+
+
+-- averageEstimates() --
+(double[] estimates) -> double average
+
+Variables -
+double sum = 0
+
+Processing -
+for when i is equal to 0, when i is < estimates length, increment
+    let sum += estimates at index of i
+
+return sum / estimates length
+-------------------------
+
+
+-- printResults() --
+(double[] results, double average) -> void
+
+for when i is equal to 0, when i is < results length, increment
+    printf new line "Trial [i + 1]: pi = results[i]"
+
+printf "estimate of pi = average"
+--------------------
+

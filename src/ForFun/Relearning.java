@@ -1,7 +1,7 @@
 package ForFun;
 
 /**
- *
+ * Experimentation and stuffs
  */
 
 import java.util.Scanner;
@@ -140,7 +140,7 @@ public class Relearning {
 
         System.out.println(1 % 5);
 
-        String[] y = { "membership" };
+        String[] y = {"membership"};
 
         System.out.println(arrayToString(y));
 
@@ -153,21 +153,20 @@ public class Relearning {
 
         int sum = 1;
         int i = 2;
-        while (i <= 3)
-        {
+        while (i <= 3) {
             sum += i;
             i++;
         }
         System.out.println(sum);
 
         int sumnew = 1;
-        for (i = 2; i < 3; i++)
-        {
+        for (i = 2; i < 3; i++) {
             sum += i;
         }
         System.out.println(sum);
 
-        System.out.println( (int) (100 * 2.34543) / 100.0);
+        System.out.println((int) (100 * 2.34543) / 100.0);
+
     }
 
     //static means that it isn't depending on the creation of a parent object

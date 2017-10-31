@@ -1,0 +1,31 @@
+
+Project: Module 7 Challenge Program // EstimatePi.java
+Purpose: Use modular programming to calculate the value
+            of pi by simulating throwing darts at a
+            dart board.
+Date: 31 October 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I understood the concepts well, and I was able to
+        incorporate modular programming well into this
+        without much trouble. It also made this program
+        easier.
+
+        Also, as the number of darts increases or the
+        number of trials increases, the estimate gets
+        closer to the value of pi.
+
+<-s>: The only time I had trouble was forgetting to
+        cast int into double within the executeTrials().
+        This resulted in 0's for my results, so after
+        only a little time, I was able to then fix it
+        because the separation code into methods.
+
+--------------------------------------------------------
+
+In the future: I'll be able to more easily separate my
+                programming problems into parts and save
+                time by making code easier to create
+                on top of debugging.
