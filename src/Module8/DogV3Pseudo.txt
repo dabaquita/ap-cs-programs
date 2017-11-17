@@ -1,0 +1,26 @@
+
+DogV3
+
+-------------------------------------
+
+<< Main Method >>
+
++ boolean catPurr
++ boolean throwBall
++ DogV3 kevinTheDog
+
+Processing -
+call methods
+
+Output
+
+-------------------------------------
+
+<< Constructor >>
+
++ DogV3()
+
+<< Methods >>
+
++ boolean isDogBarking(boolean catPurr)
++ boolean isDogFetchingkik(boolean ballThrown)

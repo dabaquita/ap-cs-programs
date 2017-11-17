@@ -1,0 +1,22 @@
+
+Project: 8.03 Default Constructors // DogV3.java
+Purpose: To practice OOP by recreating a real life object
+Date: 7 November 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: OOP style seems much easier and more organized
+        than previously used styles. I like how programs
+        can mimic real life objects, and I now further
+        understand more about how programs like apps
+        and the computer works by dividing up tasks
+        that can be recalled again.
+
+<-s>: I did not have any problems.
+
+--------------------------------------------------------
+
+In the future: I will use OOP in appropriate situations
+                and will easily be able to make
+                more organized programs.

@@ -1,0 +1,20 @@
+
+DogV3
+
+-------------------------------------
+
+<< Main Method >>
+
++ boolean catPurr
++ boolean throwBall
+
+-------------------------------------
+
+<< Constructor >>
+
++ DogV3()
+
+<< Methods >>
+
++ void barkAtCat(boolean catPurr)
++ void fetchBall(boolean ballThrown)

@@ -1,0 +1,22 @@
+
+Project: 8.07 Constructing Multiple Objects // DogV7.java & DogV7Tester.java
+Purpose: To use object oriented programming to create multiple
+            objects and manipulate instance variables as well as
+            methods.
+Date: 16 November 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Object Oriented Programming is seriously still
+        one of my favorite style of programming
+        and still wows me with how much versatility it
+        provides.
+
+<-s>: There were no problems!
+
+--------------------------------------------------------
+
+In the future: I will continue to use OOP and continue
+                practicing it since practice does make
+                perfect or close to it!

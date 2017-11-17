@@ -1,0 +1,29 @@
+
+DogV7
+
+---------------------------------
+
+- myBreed: String
+- myWeightKG: double
+- myCleanliness: boolean
+
+---------------------------------
+
+<< Constructor >>
+
++ DogV7()
++ DogV7(String breed, double weightKG, boolean isClean)
+
+
+<< Methods >>
+
++ String getBreed()
+
++ double getWeightKG()
+
++ boolean getCleanliness()
+
++ void fetch()
++ void fetch(int distanceInMeters)
++ void eatFood()
++ void takeBath()
