@@ -1,0 +1,19 @@
+
+Project:  8.09 // CO2FootprintV2.java & CO2FootprintV2Tester.java
+Purpose: To practice using Javadocs comments in programs
+Date: 23 November 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I love how more readable the code in the client
+        class is because of Javadocs. It is easy to use
+        and really makes it easier to visualize how
+        the code works.
+
+<-s>: There were no problem.
+
+--------------------------------------------------------
+
+In the future: I will use Javadocs to make my programs
+                more readable and easier to debug.

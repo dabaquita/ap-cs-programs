@@ -1,0 +1,24 @@
+
+Project:  8.08 // DogV8.java & DogV8Tester.java
+Purpose: To use accessor, mutator, setter, and
+            getter methods to display a table
+            of instance variables from objects.
+Date: 22 November 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Accessor, mutator, setter, and getter methods were
+        easy to implement, and the code was not as
+        extensive as I thought it would be! It was
+        much easier to plan and code this one!
+
+<-s>: I over thought a portion of the processing part of
+        the main method in the  implementation class, but
+        I was able to fix it after noticing how my
+        code was too extensive to make sense.
+
+--------------------------------------------------------
+
+In the future: I'll be using these types of methods to make
+                object oriented programs.

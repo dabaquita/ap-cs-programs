@@ -52,7 +52,7 @@ public class AnimalPopulation {
 
         System.out.println("\nsimulating trials now... one moment please...\n");
 
-        for(numOfTrials = Integer.parseInt(tempStr); numOfTrials > 0; numOfTrials -= 1) {        // converts and assigns to integer number of trials which is used to num of interations for loop
+        for(numOfTrials = Integer.parseInt(tempStr); numOfTrials > 0; numOfTrials--) {        // converts and assigns to integer number of trials which is used to num of interations for loop
             boolean foxSquirrel = false;                                // initially false until there is a spotting of foxSquirrel at value of 10
             totalCountPerTrial = 0;                                     // initially 0 until trial starts in while loop
 

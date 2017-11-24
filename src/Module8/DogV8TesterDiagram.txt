@@ -1,0 +1,56 @@
+
+--- Main Method ---
+
+Variables -
+DogV8[] kennel
+    "Kenny", "Beagle"
+    "Sally", "Beagle"
+    "Kevin", "Beagle"
+    "Dan", "Beagle"
+    "Bear", "Beagle"
+int randomNum
+double max = MIN_VALUE,
+       min = MAX_VALUE,
+       sum,
+       average
+int[] randNumArray
+
+Processing -
+for loop (int i; iterates 5 times)
+    create randomNum from 0 - 4
+    for loop (int j; checks for randomNum repetition)
+        if randomNum equals randNumArray at index j
+            generate new randomNum
+        else
+            assign randNumArray at index i the randomNum
+
+    kennel[randomNum].setWeight = random from [8, 12]
+
+    assign randomNum to either 0 or 1
+    if randomNum is equal to 0
+        kennel[randNumArray[i]].setCleanliness to true
+    else
+        kennel[randNumArray[i]].setCleanliness to false
+
+    for loop (int k; generate random number from 0 - 5 as limit
+        kennel[randNumArray[i]].fetch(randomNum)
+        kennel[randNumArray[i]].eatFood()
+         if randomNum is 1
+            takeBath
+
+for each loop
+    if getWeight > max
+        then getWeight is max
+    else if getWeight < min
+        then getWeight is min
+    add getWeight to sum
+
+calculate average from sum and kennel.length
+
+Output -
+Present a table of the objects
+    for each loop
+        printf getName, getBreed, getWeight, getCleanliness
+
+    Printf min, max, average
+
