@@ -1,0 +1,37 @@
+
+CO2FromWaste
+
+----------------------------
+
+- myNumPeople: int
+- myPaper: boolean
+- myPlastic: boolean
+- myGlass: boolean
+- myCans: boolean
+
+- myTotalEmission: double
+- myReduction: double
+- myNetEmission: double
+
+----------------------------
+
+<< Constructor >>
+
++ CO2FromWaste(int numPeople, boolean paper,
+               boolean plastic, boolean glass, boolean cans)
+
+
+<< Methods >>
+
++ int getNumPeople()
++ boolean getPaper()
++ boolean getPlastic()
++ boolean getGlass()
++ boolean getCans()
++ double getEmission()
++ double getReduction()
++ double getNetEmission()
+
++ void calcTotalEmission()
++ void calcReduction()
++ void calcNetEmission()

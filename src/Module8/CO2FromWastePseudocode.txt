@@ -1,0 +1,50 @@
+-------------------------------------
+CO2FromWaste.java
+-------------------------------------
+
+- Private instance variables -
+int myNumPeople
+boolean myPaper, myPlastic, myGlass, myCans
+double myTotalEmission, myReduction, myNetEmission
+
+Getter methods
+
+- void calcTotalEmission -
+set myTotalEmission the product between 1018 and myNumPeople
+
+- void calcReduction -
+Recycling paper reduces CO2 emissions by 184 pounds per person.
+Recycling plastic reduces CO2 emissions by 25.6 pounds per person.
+Recycling glass reduces CO2 emissions by 46.6 pounds per person.
+Recycling aluminum cans reduces CO2 emissions by 165.8 pounds per person.
+
+if myPaper is true, set myReduction the sum between itself and 184 * per person
+if myPlastic is true, set myReduction the sum between itself and 25.6 * per person
+if myGlass is true, set myReduction the sum between itself and 46.6 * per person
+if myCans is true, set myReduction the sum between itself and 165.8 * per person
+
+- void calcNetEmission -
+set myNetEmission the difference between myTotalEmission and myReduction
+
+-------------------------------------
+CO2FromWasteTester.java
+-------------------------------------
+
+- Main Method -
+// Variables
+ArrayList<CO2FromWaste> list
+    Declare & Initialize 6 CO2FromWaste Objects
+
+// Processing
+for each loop
+    invoke mutator methods
+
+// Output
+Make a printf header similar to the example
+
+for loop
+    printf the values of i, getNumPeople(), getPaper(), getPlastic(),
+                        getGlass(), getCans(), getTotalEmission(),
+                        getReduction(), getNetEmission()
+
+

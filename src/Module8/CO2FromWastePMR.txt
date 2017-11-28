@@ -1,0 +1,24 @@
+
+Project:  Module 8.11 // CO2FromWaste.java & CO2FromWasteTester.java
+Purpose: To learn more about OOP but now implementing
+            array lists and their properties and methods.
+Date: 27 November 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: This was not a bad programming challenge to get
+        experience with array lists and more OOP! I
+        loved it and how everything turned out amazingly
+        smoothly.
+
+<-s>: I forgot that the format specifier for integer
+        numbers are marked with "d" not "f", so I had
+        to look back into my notes to solve that
+        problem in the last printf of the implementation
+        class.
+
+--------------------------------------------------------
+
+In the future: Array lists will be widely used in conjunctin
+                with regular arrays if need be and OOP!
