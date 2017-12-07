@@ -2,3 +2,118 @@
 Hurricane.java
 -----------------------------
 
+Variables --
+- myYear: int
+- myMonth: String
+- myWindSpeed: double
+- MyPressure: double
+- MyName: String
+- MyCategory: int
+
+Methods --
++ Hurricane(int year, String month, double windSpeed,
+            double myPressure, String myName)
+
+            set each parameter into private instance
+
+Getter methods for each private instance variable
+
++ void calcCategory()
+    if myWindSpeed is >= 74 && < 95.5, set category to 1
+    if myWindSpeed is >= 95.5 && < 110.5, set category to 2
+    if myWindSpeed is >= 110.5 && < 129.5, set category to 3
+    if myWindSpeed is >= 129.5 && < 156.5, set category to 4
+    if myWindSpeed is >= 156.5, set category to 5
+
++ void toString()
+    printf private instance variables in neat format
+        %5s%15s%11d%18s%20.2f
+
+
+-----------------------------
+HurricaneTester.java
+-----------------------------
+Variables --
+
+ArrayList<Hurricane> hurricanes
+int[] categoryTotals (indices 0 - 4 correspond to categories 1 - 5)
+
+double sumCategory
+double sumPressure
+double sumWindSpeed
+int numOfTerms
+double averageCategory
+double averagePressure
+double averageWindSpeed
+
+int categoryMin
+int pressureMin
+double windSpeedMin
+
+int categoryMax
+int pressureMax
+double windSpeedMax
+
+
+Processing --
+initialize 10 hurricane objects in hurricanes
+
+for (where i = 0, i is less than hurricanes.size(), increment)
+    get object at i, calcCategory
+
+    if getCategory is 1, add category to categoryTotals[0]
+    if getCategory is 2, add category to categoryTotals[1]
+    if getCategory is 3, add category to categoryTotals[2]
+    if getCategory is 4, add category to categoryTotals[3]
+    if getCategory is 5, add category to categoryTotals[4]
+
+    add getCategory value to sumCategory
+    add getPressure value to sumPressure
+    add getWindSpeed value to sumWindSpeed
+
+    // if statements
+    test for categoryMin and categoryMax
+    test for pressureMin and pressureMax
+    test for windSpeedMin and windSpeedMax
+
+    increment numOfTerms for use in average calculations
+
+calculate sumCategory / numOfTerms and assign to averageCategory
+calculate sumPressure / numOfTerms and assign to averagePressure
+calculate sumWindSpeed / numOfTerms and assign to averageWindSpeed
+
+
+Output --
+Use header below from HurricaneSelector.java and adjust for this program
+System.out.printf("\n%35s%5s-%4s\n", "Hurricanes", rangeOfYearsLower, rangeOfYearsUpper);
+        System.out.printf("%5s%15s%15s%20s%20s\n", "Year", "Hurricane", "Category", "Pressure (mb)", "Wind Speed (mph)");
+        System.out.println("==========================================================================================");
+
+for each loop of hurricanes
+    print each hurricane with toString() method
+
+print closing separator bars
+Printf averages
+Printf minimums
+Printf maximums
+
+// This is from HurricaneSelector.java that can be reused for printing above
+System.out.println("==========================================================================================");
+        System.out.printf("\n%20s%14.2f%18.2f%17.2f",     // prints average of category, pressure, and wind speed
+                            "Average:", averageCategory, averagePressure, averageWindSpeed);
+        System.out.printf("\n%20s%11d%18d%20.2f",       // prints minimums
+                            "Minimum:", categoryMin, pressureMin, windSpeedMin);
+        System.out.printf("\n%20s%11d%18d%20.2f",       // prints maximums
+                            "Maximum:", categoryMax, pressureMax, windSpeedMax);
+
+Print Summary of categories
+
+// This is from HurricaneSelector.java that can be reused for printing above
+ System.out.println("\n\nSummary of Categories:" +          // prints summary of categories
+                "\n Cat 1: " + countCat1 +
+                "\n Cat 2: " + countCat2 +
+                "\n Cat 3: " + countCat3 +
+                "\n Cat 4: " + countCat4 +
+                "\n Cat 5: " + countCat5);
+
+

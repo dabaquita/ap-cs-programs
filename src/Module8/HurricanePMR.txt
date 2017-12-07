@@ -1,15 +1,23 @@
 
-Project:  // .java
-Purpose:
-Date:
-Author:
+Project:  8.12 Challenge // Hurricane.java & HurricaneTester.java
+Purpose: To modify a previously created program using OOP
+            to make the program less extensive and more
+            readable and reusable.
+Date: 30 November 2017
+Author: Denielle Kirk Abaquita
 
 PMR-----------------------------------------------------
 
-<+s>:
+<+s>: There were very little problems in using OOP
+        to recreate this program. I loved how I could
+        go back into my code and improve on it and
+        truly examine how and why I did things in the
+        past.
 
-<-s>:
+<-s>: There were no problems.
 
 --------------------------------------------------------
 
-In the future:
+In the future: I will be using OOP whenever possible
+                and maybe even look back at my old
+                code and improve on it.

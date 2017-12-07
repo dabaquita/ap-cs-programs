@@ -1,0 +1,57 @@
+
+
+-------------------------
+Catapult.java
+-------------------------
+
+void calculateDistance()
+
+    Variables -
+    speedMS: double
+
+    convert KPH to meters per second
+        take KPH, divide by 60 mins * 60 sec,
+        multiply by 1000
+        assign to speedMS
+
+    square speedMS, Math.sin(2 * myAngle (in radians)) all divided
+        by gravity (9.8)
+        assign to myDistanceTraveled
+
+
+
+--------------------------
+**
+CatapultTester.java
+**
+--------------------------
+
+-- Main method -->
+
+Variables -
+int[] speeds (50 - 120 kph)
+int[] angles (25 - 60 deg)
+int[][] distances = new int[8][8]
+
+Catapult fruitCatapult
+
+
+Processing -
+for loop (length of distance's rows; i)
+    for loop (length of distance's columns; j)
+        initialize catapult object with speed and angle at index i and j
+
+        calcDistance()
+        assign the distance from object to the speed's(i) row and the angle's(j) column
+
+
+Output -
+Make a table similar to the one below
+
+                Title
+    KPH     25 deg 30 deg... 60 deg
+    ===============================
+    50
+    60
+    70
+

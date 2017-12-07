@@ -1,0 +1,24 @@
+
+ Projectile.java
+
+ ---------------------------------------
+
+ - mySpeed: double
+ - myAngle: double
+ - myDistanceTraveled: double
+
+ ---------------------------------------
+
+ << Constructor >>
+
+Projectile(double speed, double angle)
+
+
+ << Methods >>
+
+ + double getSpeed()
+ + double getAngle()
+ + double getDistance()
+
+ + void calcDistance()
+

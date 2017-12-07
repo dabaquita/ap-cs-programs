@@ -1,0 +1,28 @@
+
+Hurricane.java
+
+--------------------------------
+
+- MyYear: int
+- myMonth: String
+- myWindSpeed: double
+- myPressure: double
+- myName: String
+
+- myCategory: int
+
+--------------------------------
+
+<< Constructor >>
+
++ Hurricane(int year, String month, double windSpeed,
+            double myPressure, String myName)
+
+
+<< Methods >>
+
+Getter methods for each private instance variable
+
++ void calcCategory()
+
++ void toString()

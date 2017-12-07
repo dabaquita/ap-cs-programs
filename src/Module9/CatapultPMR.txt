@@ -1,0 +1,23 @@
+
+Project:  9.04 Challenge // Catapult.java & CatapultTester.java
+Purpose: To learn about 2D arrays and implement them using
+            methods and data from an object class.
+Date: 6 December 2017
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: This was not bad at all! I loved using the 2D arrays
+        since it made the output a little bit easier
+        to display as well as placing large amounts of
+        data into one variable.
+
+<-s>: I forgot "i++" in the beginning of a for loop, and
+        nothing in the output window resulted from my
+        code. It took a while to find, but I got it in
+        the end.
+
+--------------------------------------------------------
+
+In the future: I will be able to use 2D arrays more
+                efficiently. 

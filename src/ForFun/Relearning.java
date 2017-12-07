@@ -167,6 +167,8 @@ public class Relearning {
 
         System.out.println((int) (100 * 2.34543) / 100.0);
 
+        twoStep(12);
+
     }
 
     //static means that it isn't depending on the creation of a parent object
@@ -209,6 +211,13 @@ public class Relearning {
             System.out.println(str);
         }
         return str;
+    }
+
+    public static void twoStep(int n) {
+        if (n > 5) {
+            twoStep(n - 2);
+        }
+        System.out.print(n + " ");
     }
 
 }
