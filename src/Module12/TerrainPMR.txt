@@ -1,0 +1,19 @@
+
+Project: Class Hierarchies 13.02 // Terrain.java & others
+Purpose: To practice inheritance and class hierarchies.
+Date: 29 January 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went very smoothly! In fact, it seemed
+        almost repetitive and easy, but this activity
+        was good practice in honing the skills to
+        use inheritance among classes.
+
+<-s>: Nothing was wrong.
+
+--------------------------------------------------------
+
+In the future: Class hierarchies and others will come
+                very easily.

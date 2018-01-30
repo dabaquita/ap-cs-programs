@@ -1,0 +1,17 @@
+
+Project:  Recursion 12.05 // Fibonacci.java & FibonacciTester.java
+Purpose: To recursively calculate an nth Fibonacci number
+Date: 9 January 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything worked well with the OOP style to
+        recursively call for a specific Fibonacci number!
+
+<-s>: No problems whatsoever.
+
+--------------------------------------------------------
+
+In the future: I will be able to use recursion appropriately
+                to maximize the efficiency of my programs.

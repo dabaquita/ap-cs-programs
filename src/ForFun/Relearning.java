@@ -4,6 +4,7 @@ package ForFun;
  * Experimentation and stuffs
  */
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Relearning {
@@ -169,6 +170,17 @@ public class Relearning {
 
         twoStep(12);
 
+        ArrayList<Integer> grades = new ArrayList<Integer>();
+        grades.add(88);
+        grades.add(92);
+        grades.add(95);
+        grades.add(1, 80);
+        grades.add(83);
+        System.out.println(grades.get(2 + 3 / 2));
+
+        String helloThere = "hello";
+        System.out.println(helloThere.substring(helloThere.indexOf("h") - 1, helloThere.indexOf("h")));
+
     }
 
     //static means that it isn't depending on the creation of a parent object
@@ -219,5 +231,6 @@ public class Relearning {
         }
         System.out.print(n + " ");
     }
+
 
 }

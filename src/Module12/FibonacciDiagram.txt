@@ -1,0 +1,42 @@
+
+---------------------------------
+
+Fibonacci.java
+
+---------------------------------
+
+<< Constructor >>
+
++ Fibonacci( int n )
+
+    -- These are the base cases
+    if n = 0
+        return 0
+    else if n = 1
+        return 1
+
+    -- Recursive call
+    else
+        return Fibonacci( n - 1 ) + Fibonacci( n - 2 )
+
+----------------------------------
+
+----------------------------------
+
+FibonacciTester.java
+
+----------------------------------
+
+--- Main Method --->
+
+Variables -
+Scanner input
+int numInFib
+
+Processing -
+Prompt for user input and store in numInFib
+    catch a wrong integer
+Call Fibonacci( numInFib)
+
+Output -
+Print out the fibonacci number associated with the input
