@@ -1,0 +1,19 @@
+
+Project:  13.03 Polymorphism // CircleTester.java & others
+Purpose: To demonstrate polymorphism.
+Date: 1 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well, and nothing was a problem.
+        In fact, polymorphism is a a great tool that
+        makes object oriented programming that much
+        more efficient.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: Polymorphism will be used well and
+                appropriately.

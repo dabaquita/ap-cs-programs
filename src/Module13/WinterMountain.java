@@ -1,4 +1,6 @@
-package Module12;
+package Module13;
+
+import Module13.Mountain;
 
 /**
  * This class extends Mountain.java and defines
