@@ -1,0 +1,19 @@
+
+Project: 13.04 Overriding Methods // ShapesTester4.java & Others
+Purpose: To modify shapes classes in order to
+            override the toString and equals methods.
+Date: 5 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well. The programs and overriding
+        methods worked seamlessly without any problems.
+        The process was also efficient.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I'll be even more efficient in object
+                oriented programming.
