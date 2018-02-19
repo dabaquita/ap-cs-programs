@@ -1,0 +1,45 @@
+
+Encryption.java
+
+------------------------
+Variables
+
+- keyValue: static int
+- ALPHABET: static final String[]
+- cipherAlphabet: String[26]
+
+------------------------
+Methods
+
++ Encryption()
++ Encryption(int val)
+    set val to keyValue
+
++ generateCipher(): static void
+    for (int i = 0; i < ALPHABET.length; i++)
+
+        if keyValue < 26
+            assign the cipherAlphabet[i] = ALPHABET[i + keyValue]
+        else if i + keyValue >= 26
+            assign the cipherAlphabet[i] = ALPHABET[ (i + keyValue) - 26 ]
+
++ displayAlphabet(): static void
+    for (int i = 0; i < ALPHABET.length; i++)
+
+        print out each element at index i
+
++ displayCipherAlphabet(): static void
+    for (int i = 0; i < cipherAlphabet.length; i++)
+
+        print out each element at index i
+
++ encryptMessage(String message): static String
+    Declare/Initialize String encryptedMessage
+
+    for (int i = 0; i < message.length(); i++)
+
+        assign the substring letter at (i, i + 1) to String letter
+        Find the index of that letter in ALPHABET, and assign to int index
+        Add the value of that index from cipherAlphabet to encryptedMessage
+
+    return encryptedMessage

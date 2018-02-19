@@ -1,0 +1,34 @@
+
+CaesarTester.java
+
+import java.util.Scanner;
+------------------------------
+Variables
+
+- int value
+- Scanner input
+
+------------------------------
+Methods
+
++ promptMenu(): void
+
+    Take in an input for choice b/n encrypt or decrypt
+    Check if input follows parameters
+
+    call encrypt if input is E
+    call decrypt if input is D
+
++ encrypt():
+    initialize an Encryption object
+
+    Ask the user for what message should be encrypted
+        ask to type in "Q" to quit
+
++ decrypt():
+
++ main()
+
+    Prompt user for a shift key value, assign to value
+
+    Call promptMenu()

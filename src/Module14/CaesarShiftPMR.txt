@@ -1,0 +1,25 @@
+
+Project: Caesar Shift // CaesarTester.java & others
+Purpose: To use lessons learned using static methods
+            and variables to create an encryption
+            and decryption program.
+Date: 17 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: The 'static' keyword really helped make this program
+        easier by withholding the usage of the instance
+        within method declarations, allowing for
+        an easier and cleaner appearance to the code.
+        Plus, it makes things like keeping values
+        consistent among all instances easier.
+
+<-s>: There were several bugs in the end that involved
+        incorrect output structure as well as incorrect
+        cipher alphabet generation, but everything
+        was solved in a matter of a sitting.
+
+--------------------------------------------------------
+
+In the future: Static will be used wisely.

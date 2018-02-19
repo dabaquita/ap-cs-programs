@@ -1,0 +1,33 @@
+
+Decryption.java
++ extends Encryption.java
+
+--------------------------------
+Variables
+
+--------------------------------
+Methods
+
++ Decryption()
++ Decryption(int value)
+
++ decryptMessage(String message): static String
+    Declare/Initialize String decryptedMessage
+
+        for (int i = 0; i < message.length(); i++)
+
+            index = -1
+            assign the substring letter at (i, i + 1) to String character
+
+            for (int j = 0; j < cipherAlphabet.length; j++)
+
+                if the character equals the cipherAlphabet at index j
+                    assign to int index
+
+            if the index is equal to -1
+                add the character to decryptedMessage
+            else
+                Add the value of that index from ALPHABET to decryptedMessage
+
+        return decryptedMessage
+
