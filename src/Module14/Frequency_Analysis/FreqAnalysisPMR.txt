@@ -1,0 +1,20 @@
+
+Project: 14.07 Challenge // FreqAnalysis.java
+Purpose: To calculate the frequency of letters within
+            a text document.
+Date: 20 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well! From the pseudocode to actually
+        implementing it in Java, I was able to successfully
+        create the classes with the least amount of bugs.
+
+<-s>: I used the text's name as a source for a Scanner
+        instead of the text document itself, but I quickly
+        found this mistake.
+
+--------------------------------------------------------
+
+In the future: I'll be able to decrypt and analyze text!!

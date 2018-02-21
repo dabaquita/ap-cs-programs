@@ -1,0 +1,77 @@
+
+FreqAnalysis.java
+
+--------------------------------------------------------------------------
+import Scanner
+import File
+import PrintWriter
+
+--------------------------------------------------------------------------
+Instance/Class Variables
+
+- ALPHABET : static final String[]
+
+- input : Scanner
+- text : File
+- inFile : Scanner
+- outFile : PrintWriter
+
+- count : int[ALPHABET.length]
+- frequency : double[ALPHABET.length]
+
+--------------------------------------------------------------------------
+Constructors
+
++ FreqAnalysis()
+    Prompt user for name of the input file, assign to text
+
+    call createAnalysis
+
+--------------------------------------------------------------------------
+Methods
+
++ getCount() : int[]
+
++ getFrequency() : double[]
+
++ createAnalysis() : void
+
+    Assign inFile to scan text
+
+    - Calculates the count of each letter found -
+    while inFile has a next token,
+        assign token to String token
+
+        for as long as token's length,
+
+            assign the substring from i to i + 1 to String character
+
+            for as long as ALPHABET's length,
+
+                if character is equal to the letter at
+                ALPHABET's current index,
+                    at that index in count, increment the value
+
+    inFile.close()
+
+    - Calculates the total amount of letters
+    Initialize int totalLetters to 0
+
+    for as long as the length of the count array
+        add the element to totalLetters
+
+    - Calculate the frequency of letters
+    for as long as the length of the count array
+        divide the value at the current index by totalLetters
+
+    call printToFile()
+
++ printToFile() : void
+    Assign outFile to text.getName().substring(0, text.getName().indexOf(".")) + "Freq.txt"
+
+    for as long as length of ALPHABET
+        print the values at the current index from ALPHABET, count, and frequency
+
+    outFile.close()
+
+

@@ -1,4 +1,4 @@
-package Module14;
+package Module14.En_Decryption;
 
 /**
  * Tests both the Encryption.java and
@@ -10,10 +10,10 @@ package Module14;
 
 import java.util.Scanner;
 
-import static Module14.Decryption.decryptMessage;
-import static Module14.Encryption.displayAlphabet;
-import static Module14.Encryption.displayCipherAlphabet;
-import static Module14.Encryption.encryptMessage;
+import static Module14.En_Decryption.Decryption.decryptMessage;
+import static Module14.En_Decryption.Encryption.displayAlphabet;
+import static Module14.En_Decryption.Encryption.displayCipherAlphabet;
+import static Module14.En_Decryption.Encryption.encryptMessage;
 
 public class CaesarTester {
 

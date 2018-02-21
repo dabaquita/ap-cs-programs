@@ -1,0 +1,18 @@
+
+Project: 14.06 // PrimeNumbers.java
+Purpose: To calculate and count prime numbers
+Date: 19 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Object oriented programming proved very useful
+        for this project by making sure that the
+        components for calculations and adding the
+        numbers to a list were separated.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I'll be able to more efficiently use these skills.

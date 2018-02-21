@@ -1,4 +1,4 @@
-package Module14;
+package Module14.En_Decryption;
 
 /**
  * Encodes a message using a Caesar Shift method.
