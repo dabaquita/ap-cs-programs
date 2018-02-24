@@ -10,10 +10,8 @@ package Module14.En_Decryption;
 
 import java.util.Scanner;
 
-import static Module14.En_Decryption.Decryption.decryptMessage;
-import static Module14.En_Decryption.Encryption.displayAlphabet;
-import static Module14.En_Decryption.Encryption.displayCipherAlphabet;
-import static Module14.En_Decryption.Encryption.encryptMessage;
+import static Module14.En_Decryption.Decryption.*;
+import static Module14.En_Decryption.Encryption.*;
 
 public class CaesarTester {
 

@@ -12,7 +12,7 @@ public class Encryption {
     // Private variables
     static int keyValue;
     static final String[] ALPHABET = {"A", "B", "C", "D", "E",
-                                                "F", "G", "H", "H", "J",
+                                                "F", "G", "H", "I", "J",
                                                 "K", "L", "M", "N", "O",
                                                 "P", "Q", "R", "S", "T",
                                                 "U", "V", "W", "X", "Y",
@@ -32,8 +32,7 @@ public class Encryption {
     public Encryption(int val)
     {
         keyValue = val;                         // initialize variable
-        generateCipher();                       // generates a cipher alphabet upon
-                                                // creating the instance
+        generateCipher();
     }
 
 

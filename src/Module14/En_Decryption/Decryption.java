@@ -22,25 +22,6 @@ public class Decryption extends Encryption {
     Decryption(int value)
     {
         super(value);                       // initializes the Encryption parent class
-        generateCipher();                   // generates cipher
-    }
-
-    /**
-     * Generates a cipher based on the given key value
-     */
-    public static void generateCipher()
-    {
-        // for loop to initialize cipherAlphabet using keyValue
-        for (int i = 0; i < ALPHABET.length; i++)
-        {
-            if ( (i - keyValue) < 26 && (i - keyValue) >= 0)
-            {
-                cipherAlphabet[i] = ALPHABET[i - keyValue];
-            } else if ( (i + keyValue) >= 26)
-            {
-                cipherAlphabet[i] = ALPHABET[ (i - keyValue) - 26];
-            }
-        }   // end of for loop
     }
 
     /**
@@ -55,11 +36,11 @@ public class Decryption extends Encryption {
         for (int i = 0; i < message.length(); i++) {
 
             int index = -1;
-            String character = message.substring(i, i + 1).toUpperCase();
+            String character = message.substring(i, i + 1);
 
             for (int j = 0; j < cipherAlphabet.length; j++)
             {
-                if (character.equals(cipherAlphabet[i])) {
+                if (character.equalsIgnoreCase(cipherAlphabet[j])) {
                     index = j;
                 }
             }
