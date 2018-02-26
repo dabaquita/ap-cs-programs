@@ -178,9 +178,6 @@ public class Relearning {
         grades.add(83);
         System.out.println(grades.get(2 + 3 / 2));
 
-        String helloThere = "hello";
-        System.out.println(helloThere.substring(helloThere.indexOf("h") - 1, helloThere.indexOf("h")));
-
     }
 
     //static means that it isn't depending on the creation of a parent object
