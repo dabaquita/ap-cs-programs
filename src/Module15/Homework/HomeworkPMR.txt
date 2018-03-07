@@ -1,0 +1,19 @@
+
+Project:  15.01 Abstract Classes // Homework.java & more
+Purpose: To use an abstract class to outline further
+            related objects.
+Date: 26 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well, and the code is more
+        readable and easier to manage multiple
+        objects that need to have different
+        method bodies.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: Abstract methods will be useful.

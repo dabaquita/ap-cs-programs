@@ -1,0 +1,20 @@
+
+Project:  15.03 Interfaces // HomeworkV3.java & more
+Purpose: To use an interface to outline subclasses of the
+            abstract parent class.
+Date: 27 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: The Interface makes sure that the subclasses of
+        whatever implements it needs a specific
+        method implementation, making sure
+        that there are less errors and making
+        sure that all components are present.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: Interfaces will be useful.

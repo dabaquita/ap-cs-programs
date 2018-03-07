@@ -1,0 +1,21 @@
+
+Project:  15.05 Challenge Program // Product.java and others
+Purpose: To create an inventory project utilizing classes,
+            interfaces, and concrete classes.
+Date: 3 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well! I love how the usage of
+        interfaces and abstract classes makes these
+        objects more readable and easily programmable due
+        to the requirements that implementation
+        and extension have on subclasses.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to program in an object
+                oriented manner more easily.

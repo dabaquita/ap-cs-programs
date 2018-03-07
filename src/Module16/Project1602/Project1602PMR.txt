@@ -1,0 +1,19 @@
+
+Project:  16.02 // ElectionTesters
+Purpose: Algorithms with arrays.
+Date: 7 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well! Both traversal and replacement
+        were reviews, and these programs only reinforced
+        the skills necessary to traverse and replace
+        over arrays and array lists.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be more efficient in traversing
+                and replacing in arrays and array lists.

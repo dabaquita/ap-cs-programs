@@ -1,0 +1,18 @@
+
+Project:  15.04 Comparable<T> // HomeworkV4.java & more
+Purpose: To use the Comparable<T> implementation.
+Date: 28 February 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: The Comparable<T> implementation and usage of
+        overriding the compareTo() method was easy to
+        use and really helps in comparing objects
+        that I create myself.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: Implementation of this will be useful.
