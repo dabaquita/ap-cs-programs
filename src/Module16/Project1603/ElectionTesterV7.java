@@ -97,6 +97,46 @@ public class ElectionTesterV5 {
         System.out.println("\n<<<Changing " + nameToFind + " to " + newName + ">>>");
         System.out.println("<<<Changing " + nameToFind + " number of votes to " + newVotes + ">>>");
     }
+    
+    /**
+    * Deletes a candidate object at a specified location and places null at the last index of array
+    * @param array - list of Candidate objects
+    * @param position - position used to delete a specific candidate 
+    */
+    public static void deleteCandidate(Candidate[] array, int position)
+    {
+        if ( (position > 0) && (position < array.length))
+        {
+            for (int i = position; i < array.length - 1; i++) {
+                array[i] = array[i + 1];
+            }
+            array[array.length - 1] = null;
+        }
+    }
+    
+    /**
+    * Finds a particular candidate with a specific name and deletes it 
+    * @param array - list of Candidate objects
+    * @param nameToFind - the name of the candidate to be deleted
+    */
+    public static void findAndDeleteCandidate(Candidate[] array, String nameToFind)
+    {
+        int position = 0;
+        
+        // Finds the position of the candidate to be found
+        for (int i = 0; i < array.length; i++)
+        {
+            if ( (array[i] != null) && (array[i].getName().equals(nameToFind) ) {
+                position = index;
+                break;      // breaks the for loop
+            } else if (array[i] == null) {
+                location = -1;
+                break;      // breaks the for loop
+            }
+        }
+                
+        // Deletes the candidate 
+    }
 
     /**
      * Creates a table of the output
