@@ -122,7 +122,25 @@ public class ElectionTesterV5 {
     */
     public static void deleteCandidate(Candidate[] array, String name)
     {
+        int position = -1; 
         
+        for ( int i = 0; i < array.length - 1; i++)
+        {
+            if (array[i].getName().equals(name)) {
+                position = i;
+                break;
+            } 
+        }
+        
+        if (position != -1)
+        {
+            for (int i = position; i < array.length - 1; i++)
+            {
+                array[i] = array[i + 1];
+            }
+            array[array.length - 1] = null;
+            System.out.println("<<< Delete " + name + " >>>");
+        }
     }
     
     /**
