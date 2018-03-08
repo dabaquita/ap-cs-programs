@@ -103,7 +103,7 @@ public class ElectionTesterV5 {
     * @param array - list of Candidate objects
     * @param position - position used to delete a specific candidate 
     */
-    public static void deleteCandidate(Candidate[] array, int position)
+    public static void deleteLocation(Candidate[] array, int position)
     {
         if ( (position > 0) && (position < array.length))
         {
@@ -111,7 +111,18 @@ public class ElectionTesterV5 {
                 array[i] = array[i + 1];
             }
             array[array.length - 1] = null;
+            System.out.println("<<< Delete location " + position + " >>>");
         }
+    }
+    
+    /**
+    * Deletes a candidate object based on the name
+    * @param array - list of Candidate objects
+    * @param name - name of the candidate to be deleted
+    */
+    public static void deleteCandidate(Candidate[] array, String name)
+    {
+        
     }
     
     /**
