@@ -1,0 +1,19 @@
+
+Project:  16.04 // ElectionTesters
+Purpose: Insertions and deletions with arrays
+Date: 8 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Everything went well! Both insertions
+        and deletions with arrays and array lists are
+        being more easily understood with more practice.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be more efficient in inserting
+                and deleting elements in both arrays and
+                array lists.

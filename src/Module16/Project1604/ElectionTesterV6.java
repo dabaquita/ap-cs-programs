@@ -1,6 +1,4 @@
-package Module16.Project1603;
-
-import Module16.Project1602.Candidate;
+package Module16.Project1604;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -102,6 +100,47 @@ public class ElectionTesterV6 {
     }
 
     /**
+     * Mutates the array to add an additional Candidate at a certain position within the array
+     * @param array - list of Candidate objects
+     * @param position - index for the placement of the new object
+     * @param name - String name of the candidate
+     * @param votes - int number of votes of candidate
+     */
+    public static void insertCandidate(List<Candidate> array, int position, String name, int votes)
+    {
+        array.add(position, new Candidate(name, votes));
+        array.remove(array.size() - 1);
+
+        System.out.println("\n<<< In position " + position + ", add " + name + ", " + votes + " votes. >>>");
+    }
+
+    /**
+     * Mutates the array to insert a certain Candidate before another
+     * @param array - list of Candidate objects
+     * @param nameToFind - the candidate to place before
+     * @param name - name of the new candidate
+     * @param votes - number of votes of the new candidate
+     */
+    public static void insertCandidateBefore(List<Candidate> array, String nameToFind, String name, int votes)
+    {
+        int index = 0;
+
+        for (int i = 0; i < array.size(); i++)
+        {
+            if(array.get(i).getName().equals(nameToFind))
+            {
+                index = i;
+            }
+        }
+
+        array.add(index, new Candidate(name, votes));
+        array.remove(array.size() - 1);
+
+        System.out.println("\n<<< Before " + nameToFind + ", add " + array.get(index).getName() + ", " +
+                array.get(index).getVotes() + " >>>");
+    }
+
+    /**
      * Creates a table of the output
      */
     public static void createOutput(List<Candidate> array)
@@ -139,15 +178,13 @@ public class ElectionTesterV6 {
         candidates.add(new Candidate("Nicholas Szemer", 7000));
         candidates.add(new Candidate("Victoria Lanning", 6500));
 
-        // Testing the change of candidates' names and votes
-        changeName(candidates, "Antonio Sclafani", "Denielle Abaquita");
+        // Testing the insert and replace methods
+        insertCandidate(candidates, 2, "Ron Paul", 2300);
         createOutput(candidates);
 
-        changeVotes(candidates, "Dylan Murphy", 6800);
+        insertCandidateBefore(candidates, "Quintin Richards", "Denielle Abaquita", 7000);
         createOutput(candidates);
 
-        changeBoth(candidates, "Quintin Richards", "Bob Dylan", 3200);
-        createOutput(candidates);
     }
 }
 

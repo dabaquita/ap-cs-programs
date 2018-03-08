@@ -1,6 +1,4 @@
-package Module16.Project1603;
-
-import Module16.Project1602.Candidate;
+package Module16.Project1604;
 
 /**
  * To evaluate the results of a mock
@@ -99,6 +97,57 @@ public class ElectionTesterV5 {
     }
 
     /**
+     * Mutates the array to add an additional Candidate at a certain position within the array
+     * @param array - list of Candidate objects
+     * @param position - index for the placement of the new object
+     * @param name - String name of the candidate
+     * @param votes - int number of votes of candidate
+     */
+    public static void insertCandidate(Candidate[] array, int position, String name, int votes)
+    {
+        for (int i = array.length - 1; i > position; i--)
+        {
+            array[i] = array[i - 1];                    // replaces last object with previous object, last index is lost
+        }
+
+        array[position] = new Candidate(name, votes);
+
+        System.out.println("\n<<< In position " + position + ", add " + name + ", " + votes + " votes. >>>");
+    }
+
+    /**
+     * Mutates the array to insert a certain Candidate before another
+     * @param array - list of Candidate objects
+     * @param nameToFind - the candidate to place before
+     * @param name - name of the new candidate
+     * @param votes - number of votes of the new candidate
+     */
+    public static void insertCandidateBefore(Candidate[] array, String nameToFind, String name, int votes)
+    {
+        int index = 0;
+
+        for (int i = 0; i < array.length; i++)          // finds the index of the candidate to be replaced
+        {
+            if (array[i].getName().equals(nameToFind))
+            {
+                index = i;
+            }
+        }
+
+        String nameOfOriginal = array[index].getName();
+
+        for (int i = array.length - 1; i >= index; i--)  // Replaces the last object with previous object
+        {
+            array[i] = array[i - 1];
+        }
+
+        array[index] = new Candidate(name, votes);      // Inserts a new candidate
+
+        System.out.println("\n<<< Before " + nameOfOriginal + ", add " + array[index].getName() + ", " +
+                            array[index].getVotes() + " >>>");
+    }
+
+    /**
      * Creates a table of the output
      */
     public static void createOutput(Candidate[] array)
@@ -136,14 +185,14 @@ public class ElectionTesterV5 {
 
         createOutput(candidates);
 
-        // Testing the change of candidates' names and votes
-        changeName(candidates, "Antonio Sclafani", "Denielle Abaquita");
+        // Testing the insert and replace methods
+        insertCandidate(candidates, 2, "Ron Paul", 2300);
         createOutput(candidates);
 
-        changeVotes(candidates, "Dylan Murphy", 6800);
+        insertCandidateBefore(candidates, "Quintin Richards", "Denielle Abaquita", 7000);
         createOutput(candidates);
 
-        changeBoth(candidates, "Quintin Richards", "Bob Dylan", 3200);
-        createOutput(candidates);
+
+
     }
 }
