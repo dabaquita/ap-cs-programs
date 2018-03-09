@@ -9,6 +9,9 @@ PMR-----------------------------------------------------
 <+s>: Everything went well! Both insertions
         and deletions with arrays and array lists are
         being more easily understood with more practice.
+        I noticed how array lists are significantly more
+        efficient with these algorithms by decreased
+        amounts of code compared to arrays.
 
 <-s>: No problems.
 
