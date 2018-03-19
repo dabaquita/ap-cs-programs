@@ -1,4 +1,4 @@
-package Module15.pixLab.classes;/*
+package Module16.pixLab.classes;/*
  * Purpose:
  * 
  * < your name >
@@ -340,7 +340,7 @@ public class Picture extends SimplePicture
     * specified startRow and startCol in the
     * current picture
     * @param fromPic the picture to copy from
-    * @param fromStartRow the row to start coping
+    * @param fromStartRow the row to start copying
     * from in the from picture
     * @param fromStartCol the column to start
     * copying from in the from picture
@@ -358,6 +358,24 @@ public class Picture extends SimplePicture
                    int toStartCol)
   {
     // to be completed for Activity 8
+    Pixel fromPixel = null;
+    Pixel toPixel = null;
+    Pixel[][] toPixels = this.getPixels2D();
+    Pixel[][] fromPixels = fromPic.getPixels2D();
+
+    for (int fromRow = fromStartRow, toRow = toStartRow;
+         fromRow < fromEndRow && toRow < toPixels.length;
+         fromRow++, toRow++)
+    {
+      for (int fromCol = fromStartCol, toCol = toStartCol;
+           fromCol < fromEndCol && toCol < toPixels[0].length;
+           fromCol++, toCol++)
+      {
+        fromPixel = fromPixels[fromRow][fromCol];
+        toPixel = toPixels[toRow][toCol];
+        toPixel.setColor(fromPixel.getColor());
+      }
+    }
   }
   
   
@@ -379,6 +397,29 @@ public class Picture extends SimplePicture
   }
   
   // myCollage
+  /** Method to create a collage from Activity 8 */
+  public void myCollage()
+  {
+    Picture robot = new Picture("/Users/DK/Desktop/AP CS/AP CS/src/Module16/pixLab/images/robot.jpg");
+    
+    this.copy(robot, 0, 0);
+
+    Picture robotNoBlue = new Picture(robot);
+    robotNoBlue.zeroBlue();
+
+    Picture robotInGray = new Picture(robot);
+    robotInGray.grayscale();
+    
+    Picture robotOnlyBlue = new Picture(robot);
+    robotOnlyBlue.keepOnlyBlue();
+    
+    this.copy(robotNoBlue, 100, 0);
+    this.copy(robotInGray, 200, 0);
+    this.copy(robotOnlyBlue, 300, 0);
+
+    this.mirrorVertical();
+    this.write("/Users/DK/Desktop/AP CS/AP CS/src/Module16/pixLab/images/collage.jpg");
+  }
   
   
   /////////////////////////// Activity 9 ////////////////////////////
@@ -407,5 +448,30 @@ public class Picture extends SimplePicture
   }  
   
   // edgeDetection2
-  
+  /** Method to show large changes in color
+   * @param edgeDist the distance for finding edges
+   */
+  public void edgeDetection2(int edgeDist)
+  {
+    Pixel topPixel = null;
+    Pixel bottomPixel = null;
+    Pixel[][] pixels = this.getPixels2D();
+    Color bottomColor = null;
+    
+    for (int row = 0; row < pixels.length - 1; row++)
+    {
+      for (int col = 0; col < pixels[0].length-1; col++)
+      {
+        topPixel = pixels[row][col];
+        bottomPixel = pixels[row + 1][col];
+        bottomColor = bottomPixel.getColor();
+        if (topPixel.colorDistance(bottomColor) > edgeDist)
+          topPixel.setColor(Color.BLACK);
+        else
+          topPixel.setColor(Color.WHITE);
+      }
+    }
+    
+  }
+
 } // this } is the end of class Picture, put all new methods before this

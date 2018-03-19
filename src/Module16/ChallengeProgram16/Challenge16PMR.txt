@@ -1,0 +1,22 @@
+
+Project: Challenge Program 16 // Student.java
+Purpose: To use algorithms in traversing, inserting,
+            and deleting items from and into arrays lists.
+Date: 10 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: From scratch, I was able to traverse, insert,
+        and delete the elements of objects within
+        array lists easily based on the previous
+        assignments.
+
+<-s>: I forgot to include a break statement in one of the
+        for loops, which caused an infinite loop and the
+        eventual crash of my program.
+
+--------------------------------------------------------
+
+In the future: I'll be able to use these skills in
+                further arrays and array lists.

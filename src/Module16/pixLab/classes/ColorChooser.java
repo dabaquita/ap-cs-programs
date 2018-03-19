@@ -1,4 +1,4 @@
-package Module15.pixLab.classes;
+package Module16.pixLab.classes;
 
 import javax.swing.JColorChooser;
 import javax.swing.JFrame;

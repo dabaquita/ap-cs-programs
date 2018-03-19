@@ -1,4 +1,4 @@
-package Module15.pixLab.classes;
+package Module16.pixLab.classes;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
