@@ -1,4 +1,4 @@
-package Module17;
+package Module17.InsertionSort;
 
  /**
  * This class demonstrates the bubble sort algorithm.

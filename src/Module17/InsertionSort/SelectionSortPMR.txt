@@ -1,0 +1,20 @@
+
+Project:  Selection Sort // Movie.java & MovieTheaterV2.java
+Purpose: To practice the selection sort on object properties
+            over an array.
+Date: 19 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Through this exercise, I continually began to
+        understand the selection sort algorithm as I
+        rewrote it over and over again for each property
+        of the Movie objects.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to use selection sort over
+                an array.
