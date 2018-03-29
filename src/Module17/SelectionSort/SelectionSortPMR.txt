@@ -1,0 +1,17 @@
+
+Project: Selection Sort // MovieTheaterV3.java
+Purpose: To practice selection sort algorithm.
+Date: 20 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Implementing the algorithm went well, and I have
+        learned more about how it works through
+        rewriting the code over and over again.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to use the selection sort.

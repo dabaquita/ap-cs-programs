@@ -1,0 +1,18 @@
+
+Project: Merge Sort // MovieTheaterV4.java
+Purpose: To learn the merge sort algorithm.
+Date: 28 March 2018
+Author:
+
+PMR-----------------------------------------------------
+
+<+s>: The merge sort algorithm was better understood
+        after watching a couple of videos in addition
+        to the eIMACS. Afterwards, it was simple to
+        implement in the movie list.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to use merge sort.

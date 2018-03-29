@@ -18,6 +18,7 @@ public class SortingAlgorthms {
         printArray( selectionSort(array, 1) );
         printArray( selectionSort(array, 2));
 
+        printArray( insertionSortInPlace(array, 1));
 
     }
 
@@ -63,7 +64,7 @@ public class SortingAlgorthms {
                 source[i] = source[maxPosition];        // places max element in last position
                 source[maxPosition] = temp;             // places last element in the other position
             }
-            System.out.println("\nSorted in ascending order.");
+            System.out.println("\nSorted in ascending order. (Selection)");
         }
         else if (order == 2)
         {
@@ -84,13 +85,13 @@ public class SortingAlgorthms {
                 source[i] = source[minPosition];        // places min element in last position
                 source[minPosition] = temp;             // places last element in the other position
             }
-            System.out.println("\nSorted in descending order.");
+            System.out.println("\nSorted in descending order. (Selection)");
         }
 
         return source;
     }
 
-    /**
+    /** ACCORDING TO FLVS
      * Insertion sort algorithm that compares each
      * element with the next and inserts each before or
      * after according to a parameter.
@@ -104,15 +105,79 @@ public class SortingAlgorthms {
 
         if (order == 1)
         {
-            System.out.println("\nSorted in ascending order.");
+            System.out.println("\nSorted in ascending order. (Insertion)");
         }
         else if (order == 2)
         {
-            System.out.println("\nSorted in descending order.");
+            System.out.println("\nSorted in descending order. (Insertion)");
         }
 
         return dest;
     }
+
+    /** FROM VIDEO
+     * Insertion sort algorithm that compares each
+     * element with the next and inserts each before or
+     * after according to a parameter.
+     * @param source - unsorted array
+     * @param order - 1: ascending, 2: descedning
+     * @return the sorted array
+     */
+    public static int[] insertionSortInPlace(int[] source, int order)
+    {
+        if (order == 1)
+        {
+            for (int i = 1; i < source.length; i++)
+            {
+                int value = source[ i ];
+                int hole = i;
+
+                while ( hole > 0 && source[ hole - 1 ] > value )
+                {
+                    source[ hole ] = source[ hole - 1];
+                    hole--;
+                }
+
+                source[ hole ] = value;
+            }
+
+            System.out.println("\nSorted in ascending order. (Insertion)");
+        }
+        else if (order == 2)
+        {
+            for (int i = 1; i < source.length; i++)
+            {
+                int value = source[ i ];
+                int hole = i;
+
+                while ( hole > 0 && source[ hole - 1 ] < value )
+                {
+                    source[ hole ] = source[ hole - 1];
+                    hole--;
+                }
+
+                source[ hole ] = value;
+            }
+
+            System.out.println("\nSorted in descending order. (Insertion)");
+        }
+
+        return source;
+    }
+
+    /**
+     * Merge sort
+     * @param source - array of ints to be sorted
+     * @param order - 1: ascending, 2: descending
+     * @return sorted array
+     */
+    public static int[] mergeSort(int[] source, int order)
+    {
+
+
+        return source;
+    }
+
 
 
 }   // end of class

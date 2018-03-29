@@ -88,7 +88,7 @@ public class MovieTheaterV2 {
                 {
                     if ( nextTitle.compareTo(dest[k - 1].getTitle()) > 0 )    // if the next is greater than previous
                     {
-                        insertIndex = k;        // assign the insert index to be where k is
+                        insertIndex = k;        // assign the insert index to be right of current element in destination
                     }
                     else
                     {
