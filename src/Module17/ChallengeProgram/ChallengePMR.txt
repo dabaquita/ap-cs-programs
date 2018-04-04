@@ -1,0 +1,17 @@
+
+Project: Soring Challenge // Product.java & ProductTester.java
+Purpose: To practice all three sorting methods.
+Date: 31 March 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: This was simple by using the examples created on
+        the previous programs as bases. This also helped
+        me increase my understanding of each algorithm.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to sort in multiple ways.
