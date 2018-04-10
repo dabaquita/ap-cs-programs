@@ -105,6 +105,27 @@ public class SortingAlgorthms {
 
         if (order == 1)
         {
+            for (int i = 0; i < source.length; i++)
+            {
+                int next = source[i];
+                int insertIndex = 0;
+                int k = i;
+
+                while (k > 0 && insertIndex == 0)
+                {
+                    if ( next > dest[k - 1])
+                    {
+                        insertIndex = k;
+                    }
+                    else
+                    {
+                        dest[k] = dest[k - 1];
+                    }
+                    k--;
+                }
+                dest[insertIndex] = next;
+            }
+
             System.out.println("\nSorted in ascending order. (Insertion)");
         }
         else if (order == 2)
@@ -168,16 +189,69 @@ public class SortingAlgorthms {
     /**
      * Merge sort
      * @param source - array of ints to be sorted
-     * @param order - 1: ascending, 2: descending
+     * @param left - starting index
+     * @param right - ending index
      * @return sorted array
      */
-    public static int[] mergeSort(int[] source, int order)
+    public static void mergeSort(int[] source, int left, int right)
     {
+        if (left >= right)
+            return;
 
+        int mid = (left + right) / 2;
 
-        return source;
+        mergeSort(source, left, mid);
+        mergeSort(source, mid + 1, right);
+
+        merge(source, left, mid, right);
     }
 
+    /**
+     * Merges halves of array
+     * @param source - array of ints to be sorted
+     * @param leftStart - starting index of left half
+     * @param mid - mid point within entire array
+     * @param rightEnd - ending index of right half
+     */
+    public static void merge(int[] source, int leftStart, int mid, int rightEnd)
+    {
+        int[] temp = new int[rightEnd - leftStart + 1];
+
+        int left = leftStart,       // starting index of left half
+                right = mid + 1,    // starting index of right half
+                index = 0;          // index of temp array
+
+        while (left <= mid || right <= rightEnd)        // while either inbounds
+        {
+            if (left > mid)
+            {
+                temp[ index ] = source[ right ];
+                right++;
+            }
+            else if (right > rightEnd)
+            {
+                temp[ index ] = source[ left ];
+                left++;
+            }
+            else if ( source[ left ] < source[ right ])
+            {
+                temp[ index ] = source[ left ];
+                left++;
+            }
+            else        // if right element is less than left element
+            {
+                temp[ index ] = source[ right ];
+                right++;
+            }
+            index++;
+        }
+
+        // put sorted elements back into given array
+        for (int k = leftStart; k <= rightEnd; k++)
+        {
+            source[ k ] = temp[ k - leftStart];
+        }
+    }
 
 
 }   // end of class

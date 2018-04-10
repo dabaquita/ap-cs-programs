@@ -1,0 +1,18 @@
+
+Project: Binary Search // MusicTesterV3.java
+Purpose: To practice the binary search algorithm on a
+            list of song objects.
+Date: 10 April 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Binary Search is a very efficient algorithm for
+        searching, and I loved every minute of learning
+        it and how it is implemented in code.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to use binary search.
