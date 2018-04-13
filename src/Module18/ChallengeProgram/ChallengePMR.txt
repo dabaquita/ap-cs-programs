@@ -1,0 +1,21 @@
+
+Project: Challenge Program // Contact.java & AddressBook.java
+Purpose: To practice sorting and searching algorithms.
+Date: 12 April 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to efficiently make use of the algorithms
+        that I learned in this challenging and extensive
+        program.
+
+<-s>: It was a little difficult remembering the algorithms
+        and how to implement them, but through this
+        program, I was able to practice and memorize and
+        truly understand the concepts.
+
+--------------------------------------------------------
+
+In the future: I will be able to use multiple sorting
+                searching algorithms as appropriate.
