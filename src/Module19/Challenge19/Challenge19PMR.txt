@@ -1,0 +1,20 @@
+
+Project: Module 19 Challenge Program // StudentData.java & StudentTester.java
+Purpose: To practice exception handling and collectively
+            practice topics from previous chapters.
+Date: 18 April 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: I was able to understand exception handling very
+        easily, making the code more readable and more
+        neat to execute.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to use exception handling
+                methods in my programs to make for a neater
+                user experience.

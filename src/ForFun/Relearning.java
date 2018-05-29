@@ -178,6 +178,12 @@ public class Relearning {
         grades.add(83);
         System.out.println(grades.get(2 + 3 / 2));
 
+        System.out.println(Integer.MAX_VALUE + 2);
+
+        int[] hate = new int[10];
+        int[] hat = new int[10];
+        System.out.println(hate[2] + hat[2]);
+
     }
 
     //static means that it isn't depending on the creation of a parent object

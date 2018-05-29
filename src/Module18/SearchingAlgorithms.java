@@ -18,6 +18,7 @@ public class SearchingAlgorithms {
     }
 
     /**
+     * SPEED: Average of n/2 iterations and worse case n
      * Sequentially searches for a number in an array
      * @param array - sorted ascending array
      * @param x - integer to be found
@@ -40,6 +41,7 @@ public class SearchingAlgorithms {
     }
 
     /**
+     * SPEED: LOG BASE 2 Run time (Log base 2 n, where n is equal to the number of elements)
      * Recursively implements the binary search algorithm to find the index of an element
      * @param array - sorted ascending array
      * @param x - integer to be found
@@ -72,6 +74,29 @@ public class SearchingAlgorithms {
     public static int binarySearchRecursive(int[] array, int x)
     {
         return binarySearchRecursive(array, x, 0, array.length - 1);
+    }
+
+    /** FROM EIMACS
+     * Returns the position of the element equal to target or -1 if target
+     *  is not in the array
+     *  Precondition:  array a contains n values sorted in ascending order
+     */
+    public int binarySearch2(int[] a, int n, int target)
+    {
+        int left = 0;
+        int right = n - 1;
+
+        while (left <= right)
+        {
+            int middle = (left + right) / 2;
+            if (target == a[middle])
+                return middle;
+            else if (target < a[middle])
+                right = middle - 1;     // Continue search in the left half
+            else
+                left = middle + 1;      // Continue search in the right half
+        }
+        return -1;
     }
 
     /**

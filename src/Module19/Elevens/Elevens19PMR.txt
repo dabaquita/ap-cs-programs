@@ -1,0 +1,22 @@
+
+Project: Elevens Lab // Board.java & ElevensBoard.java
+Purpose: To learn about real life applications of java
+            in a software or game setting.
+Date: 22 April 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Mostly everything went well, mostly the worksheet
+        and outlining the program and grasping an
+        understanding of it as a whole and in parts.
+
+<-s>: I was not aware of the cardAt() method until I
+        reread the entire ElevensBoard class, so I had
+        a few bugs regarding selection and pairing.
+
+--------------------------------------------------------
+
+In the future: I will be able to analyze a similar
+                program and maybe even make one of my
+                own.

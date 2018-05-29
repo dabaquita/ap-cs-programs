@@ -33,7 +33,7 @@ public class SortingAlgorthms {
         System.out.println();
     }
 
-    /**
+    /** (n(n − 1)/2 comparisons, where n is number of elements, quadratic)
      * Selection sort algorithm that picks the largest
      * in the array and places it in the last and steadily
      * iterates over the length of the array from right to left,
@@ -91,7 +91,7 @@ public class SortingAlgorthms {
         return source;
     }
 
-    /** ACCORDING TO FLVS
+    /** ACCORDING TO FLVS (n(n − 1)/2 comparisons, where n is number of elements, quadratic)
      * Insertion sort algorithm that compares each
      * element with the next and inserts each before or
      * after according to a parameter.
@@ -187,7 +187,7 @@ public class SortingAlgorthms {
     }
 
     /**
-     * Merge sort
+     * Merge sort into ascending order
      * @param source - array of ints to be sorted
      * @param left - starting index
      * @param right - ending index
@@ -203,6 +203,7 @@ public class SortingAlgorthms {
         mergeSort(source, left, mid);
         mergeSort(source, mid + 1, right);
 
+        // if (source[mid] > a[mid + 1]     // optional line to skip work when array is already sorted or partially sorted
         merge(source, left, mid, right);
     }
 

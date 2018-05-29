@@ -1,0 +1,20 @@
+
+Project: Elevens Lab
+Purpose: To practice algorithms in a lab context.
+Date: 15 April 2018
+Author: Denielle Kirk Abaquita
+
+PMR-----------------------------------------------------
+
+<+s>: Implementations and directions were easy to
+        follow, so I had very little problems. Overall,
+        it was interesting to examine how to traverse
+        arrays in a different way to shuffle a deck
+        of card objects.
+
+<-s>: No problems.
+
+--------------------------------------------------------
+
+In the future: I will be able to use more algorithms
+                and think in a more algorithmic way.
